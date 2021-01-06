@@ -16,18 +16,21 @@ repositories {
 }
 
 dependencies {
-	//Kotlin
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
-	//Tests
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
-	//Springboot Test
 	implementation("org.springframework.boot:spring-boot-starter-web")
 
 
-	//mongodb
+
 	implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
+
+
+
+
+
+
 }
 
 tasks.withType<KotlinCompile> {
